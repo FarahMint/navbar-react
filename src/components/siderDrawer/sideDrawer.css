@@ -40,7 +40,9 @@
  color: #fa923f;
 }
 
-.close__btn{
+/* TEST 2) button on the RIGHT  */
+
+/* .close__btn{
     display: flex;
         justify-content: center;
         font-size: 2rem;
@@ -54,7 +56,7 @@
         width: 30px;
         padding: .25rem;
  
-}
+} */
 
 
 @media(min-width:768px){

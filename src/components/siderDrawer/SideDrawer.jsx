@@ -10,8 +10,10 @@ const SideDrawer = props =>{
  }
  return(
  <nav className={drawerClasses}>
-   <div className="close__btn" 
-       onClick={props.toggleNavHandler} >X</div>
+ {/* TEST 2) button on the RIGHT  */}
+   {/* <div className="close__btn" 
+       onClick={props.toggleNavHandler} >X</div> */}
+       
      <ul>
      <li>
       <a href="/">Users</a>

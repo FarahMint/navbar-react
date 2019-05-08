@@ -42,10 +42,16 @@ class App extends Component {
     }
     return (
       <div style={{height:"100%"}}>
-    <Toolbar  toggleNavHandler ={this.toggleNavHandler}/>
+    <Toolbar  
+    toggleNavHandler ={this.toggleNavHandler}
+    show = {this.state.sideDrawerOpen}/>
+
+
     <SideDrawer 
     show = {this.state.sideDrawerOpen}
-    toggleNavHandler={this.toggleNavHandler} /> 
+    /**TEST 2) button on the RIGHT remove btn sidebar*/
+    // toggleNavHandler={this.toggleNavHandler} 
+    /> 
         {/* {sideDrawer} */}
         {backdrop}
      
